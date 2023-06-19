@@ -19,8 +19,8 @@ from django.urls import path
 from Apps.prueba.views import *
 
 urlpatterns = [
-    path('', myHomeView, name='Página de Inicio'),
     path('prueba/', myHomeView, name='Página de prueba'),
     path('otro/', anotherPage, name='Segunda página de prueba'),
+    path('', myTemplate, name='Página con Template'),
     path('admin/', admin.site.urls),
 ]
