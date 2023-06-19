@@ -1,0 +1,132 @@
+\documentclass[12]{article}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+%tabla
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{adjustbox}
+%color
+\usepackage[table]{xcolor}
+\usepackage{xcolor}
+\definecolor{red}{RGB}{255,0,0}
+\definecolor{myblack}{RGB}{0,0,0}
+
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=black]{hyperref}%referencias de 
+\usepackage{fancyvrb}
+\renewcommand{\familydefault}{\sfdefault}%cambio de familya de texto
+\graphicspath{{./images/}}%dirección de las imágenes
+\usepackage[left=25mm, right=25mm, top=35mm, bottom=30mm, headheight=35mm]{geometry}
+\usepackage{lastpage}% devuelve la última página
+%encabezado
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%conf encabazado
+\lhead{\includegraphics[width=0.20\textwidth]{sistemas}}
+\chead{\textbf{{\footnotesize UNIVERSIDAD NACIONAL DE SAN AGUSTIN\\
+			FACULTAD DE INGENIERÍA DE PRODUCCIÓN Y SERVICIOS\\
+			DEPARTAMENTO ACADÉMICO DE INGENIERÍA DE \\ SISTEMAS E INFORMÁTICA\\
+			ESCUELA PROFESIONAL DE INGENIERÍA DE SISTEMAS}}}
+\rhead{\includegraphics[width=0.1\textwidth]{abet}}
+%conf pie de página
+\lfoot{Estudiante \autor}
+\cfoot{Pweb2}
+\rfoot{Pag. \thepage\ - \pageref{LastPage}}
+
+%comandos adicionales
+\newcommand{\autor}{Jhamil Yeyder Turpo Añasco}
+\renewcommand{\headrulewidth}{1.5pt}
+\renewcommand{\footrulewidth}{1pt}
+%\graphicspath{{./images/}} indica la posición de las figuras
+%opening
+
+
+\begin{document}
+	
+	\begin{center}
+		\textbf{GUÍA DE LABORATORIO 5}
+	\end{center}
+	
+	\begin{table}[h]
+		\centering
+		
+		\begin{tabular}{|p{0.2\linewidth}|p{0.12\linewidth}|p{0.15\linewidth}|p{0.12\linewidth}|p{0.16\linewidth}|p{0.09\linewidth}|}
+			\hline
+			%\cellcolor{red} solo una casilla
+			\rowcolor{red}
+			\multicolumn{6}{|c|}{\textbf{INFORMACIÓN BÁSICA}} \\
+			\hline
+			ASIGNATURA: & \multicolumn{5}{l|}{Programación Web 2} \\
+			\hline
+			TEMA: & \multicolumn{5}{l|}{Django} \\
+			\hline
+			NÚMERO DE PÁCTICA: & 05 & AÑO LECTIVO: & 2023 A & NRO. SEMESTRE: & III \\
+			\hline
+			FECHA DE INICIO: & 29-May-2023 & FACHA FIN: & 05-Junio-2023 & DURACIÓN: & 4 horas \\
+			\hline
+			\multicolumn{6}{|l|}{AUTOR:} \\
+			\multicolumn{6}{|l|}{\autor} \\
+			\hline
+			\multicolumn{6}{|l|}{DOCENTE:} \\
+			\multicolumn{6}{|l|}{Anibal Sardon Paniagua} \\
+			\hline
+		\end{tabular}
+		\label{tab: datos}
+	\end{table}
+	
+	
+	\section*{\begin{center}
+			\textbf{{\Huge DJANGO}}
+	\end{center}}
+	
+	\section{COMPETENCIAS DEL CURSO}
+	
+	\begin{itemize}
+		\item Diseña responsablemente aplicaciones web, sus componentes o procesos para satisfacer necesidades dentro de restricciones realistas: económicas, medio ambientales, sociales, políticas, éticas, de salud, de seguridad, manufacturación y sostenibilidad.
+		
+		\item Construye responsablemente soluciones con tecnología web siguiendo un proceso adecuado llevando a cabo las pruebas ajustada a los recursos disponibles del cliente.
+		
+		\item Aplica de forma flexible técnicas, métodos, principios, normas, esténdares y herramientas del desarrollo web necesarias para la construcción de aplicaciones web e implementación de estos sistemas en una organización.
+	\end{itemize}
+	
+	\section{EJERCICIOS PROPUESTOS}
+	
+	\begin{itemize}
+		\item Cree la aplicación Library paso a paso desde la siguiente url:
+		\item \url{https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website}
+		\item 
+		\begin{Verbatim}[xleftmargin=\parindent]
+			codigo
+		\end{Verbatim}
+		%\begin{figure}[h!]
+			%\centering
+			%\includegraphics[width=0.2\linewidth%]{url}
+			%\caption{ejercicio 2a}
+			%\label{fig:2a}
+		%\end{figure}
+	\end{itemize}
+	
+	\section{TAREA}
+	
+	\begin{itemize}
+		\item Elabore un primer informe grupal de la aplicación que desarrollará durante este semestre.
+		\item Utilicen todas las recomendaciones dadas en la aplicación library.
+	\end{itemize}
+	
+	\section{PREGUNTAS}
+	
+	\begin{itemize}
+		\item Por cada integrante del equipo, resalte un aprendizaje que adquirió al momento de estudiar Django. No se reprima de ser detallista. Coloque su nombre entre parentesis para saber que es
+		su aporte.
+	\end{itemize}\newpage
+	
+	\subsection*{Referencias}
+	
+	\begin{itemize}
+		\item \url{https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website}
+		\item \url{https://github.com/mdn/django-locallibrary-tutorial}
+		\item \url{https://github.com/rescobedoq/pw2/tree/main/labs/lab05}
+	\end{itemize}
+	
+\end{document}
+
