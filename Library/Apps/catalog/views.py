@@ -1,8 +1,9 @@
-from typing import Any, Dict
-from django.db.models.query import QuerySet
+
 from django.shortcuts import render
 from django.db.models import Count
 from django.views import generic
+from django.shortcuts import get_object_or_404
+from django.http import Http404
 from .models import * # Book, Author, BookInstance, Genre, Language
 
 # Create your views here.
@@ -37,17 +38,22 @@ def index(request):
 
 class BookListView(generic.ListView):
     model = Book # consulta de BBDD Book
-    context_object_name = 'book_list' # Nombre identificador para plantilla
-    queryset = Book.objects.filter(title__icontains='was')[:5]
-    template_name = 'catalog/bookList.html'
+    # context_object_name = 'book_list' # Nombre identificador para plantilla
+    # # queryset = Book.objects.filter(title__icontains='Harry')[:5]
+    # template_name = 'catalog/book_ist.html'
 
     def get_queryset(self):
-        return Book.objects.filter(title__icontains='was')[:5]
+        #return Book.objects.filter(title__icontains='Harry')[:5]
+        return Book.objects.all()
     
     def get_context_data(self, **kwargs):
         context = super(BookListView, self).get_context_data(**kwargs) # llama a BBDD
         context['algo'] = 'agregando' # crea nuevo dato y agrega
         return context
-    
+
 class BookDetailView(generic.DetailView):
     model = Book
+
+def book_detail_view(request, primary_key):
+    book = get_object_or_404(Book, pk=primary_key)
+    return render(request, 'catalog/book_detail.html', context={'book': book})
