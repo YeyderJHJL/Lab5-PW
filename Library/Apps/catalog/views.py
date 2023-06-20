@@ -1,5 +1,8 @@
+from typing import Any, Dict
+from django.db.models.query import QuerySet
 from django.shortcuts import render
-from django.db.models import Count, Q
+from django.db.models import Count
+from django.views import generic
 from .models import * # Book, Author, BookInstance, Genre, Language
 
 # Create your views here.
@@ -30,3 +33,19 @@ def index(request):
 
     # Render the HTML template index.html with the data in the context variable
     return render(request, 'index.html', context=context)
+
+
+class BookListView(generic.ListView):
+    model = Book # consulta de BBDD Book
+    context_object_name = 'bookList' # Nombre de plantilla
+    queryset = Book.objects.filter(title__icontains='was')[:5]
+    template_name = 'books/myBook.html'
+
+    def get_queryset(self):
+        return Book.objects.filter(title__icontains='was')[:5]
+    
+    def get_context_data(self, **kwargs):
+        context = super(BookListView, self).get_context_data(**kwargs) # llama a BBDD
+        context['some_data'] = 'This is just some data' # crea nuevo context y agrega
+        return context
+    
