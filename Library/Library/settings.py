@@ -128,3 +128,5 @@ SESSION_SAVE_EVERY_REQUEST = True
 
 # redirección a la página de inicio
 LOGIN_REDIRECT_URL = '/'
+# para reestablecer contraceña
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
