@@ -41,6 +41,7 @@ class BookListView(generic.ListView):
     # context_object_name = 'book_list' # Nombre identificador para plantilla
     # # queryset = Book.objects.filter(title__icontains='Harry')[:5]
     # template_name = 'catalog/book_ist.html'
+    paginate_by=5
 
     def get_queryset(self):
         #return Book.objects.filter(title__icontains='Harry')[:5]
