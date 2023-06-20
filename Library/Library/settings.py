@@ -122,3 +122,6 @@ STATIC_URL = 'Apps/static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# actualización de cookies en cada session
+SESSION_SAVE_EVERY_REQUEST = True

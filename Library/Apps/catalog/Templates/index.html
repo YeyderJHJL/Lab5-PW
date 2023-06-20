@@ -20,4 +20,8 @@
         <li><strong>Number of genre:</strong> {{ num_genres }}</li>
         <li><strong>Books with Harry:</strong> {{ num_books_with_word }}</li>
     </ul>
+
+    <p>
+        Esta página fue visitado {{ num_visits }} vece{{ num_visits|pluralize }}.
+    </p>
 {% endblock %}
