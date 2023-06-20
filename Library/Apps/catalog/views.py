@@ -37,15 +37,17 @@ def index(request):
 
 class BookListView(generic.ListView):
     model = Book # consulta de BBDD Book
-    context_object_name = 'bookList' # Nombre de plantilla
+    context_object_name = 'book_list' # Nombre identificador para plantilla
     queryset = Book.objects.filter(title__icontains='was')[:5]
-    template_name = 'books/myBook.html'
+    template_name = 'catalog/bookList.html'
 
     def get_queryset(self):
         return Book.objects.filter(title__icontains='was')[:5]
     
     def get_context_data(self, **kwargs):
         context = super(BookListView, self).get_context_data(**kwargs) # llama a BBDD
-        context['some_data'] = 'This is just some data' # crea nuevo context y agrega
+        context['algo'] = 'agregando' # crea nuevo dato y agrega
         return context
     
+class BookDetailView(generic.DetailView):
+    model = Book
