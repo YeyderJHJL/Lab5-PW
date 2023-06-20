@@ -41,7 +41,7 @@ class BookListView(generic.ListView):
     # context_object_name = 'book_list' # Nombre identificador para plantilla
     # # queryset = Book.objects.filter(title__icontains='Harry')[:5]
     # template_name = 'catalog/book_ist.html'
-    paginate_by=5
+    paginate_by = 10
 
     def get_queryset(self):
         #return Book.objects.filter(title__icontains='Harry')[:5]
@@ -58,3 +58,10 @@ class BookDetailView(generic.DetailView):
 def book_detail_view(request, primary_key):
     book = get_object_or_404(Book, pk=primary_key)
     return render(request, 'catalog/book_detail.html', context={'book': book})
+
+class AuthorListView(generic.ListView):
+    model = Author
+    paginate_by = 10
+
+
+
