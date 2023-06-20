@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Library.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'Apps.catalog.Templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'Apps/catalog/Templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
