@@ -10,7 +10,32 @@
 \usepackage[table]{xcolor}
 \usepackage{xcolor}
 \definecolor{red}{RGB}{255,0,0}
-\definecolor{myblack}{RGB}{0,0,0}
+\definecolor{blackcolor}{rgb}{0.95,0.95,0.92}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+
+%para código
+\usepackage{listings}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{blackcolor},
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,
+	breaklines=true,
+	captionpos=t, % b
+	keepspaces=true,
+	numbers=left,
+	showspaces=false,
+	showstringspaces=false,
+	showtabs=false,
+	tabsize=2,
+}
+\lstset{extendedchars=true, inputencoding=utf8}
 
 \usepackage[colorlinks=true, urlcolor=blue, linkcolor=black]{hyperref}%referencias de 
 \usepackage{fancyvrb}
@@ -39,6 +64,7 @@
 \renewcommand{\footrulewidth}{1pt}
 %\graphicspath{{./images/}} indica la posición de las figuras
 %opening
+
 
 
 \begin{document}
@@ -91,12 +117,11 @@
 	
 	\section{EJERCICIOS PROPUESTOS}
 	
+	\lstlistoflistings
 	\begin{itemize}
 		\item Cree la aplicación Library paso a paso desde la siguiente url:
 		\item \url{https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website}
-		\item 
 		\begin{Verbatim}[xleftmargin=\parindent]
-			codigo
 		\end{Verbatim}
 		%\begin{figure}[h!]
 			%\centering
@@ -105,19 +130,104 @@
 			%\label{fig:2a}
 		%\end{figure}
 	\end{itemize}
+	\newpage
+	\begin{lstlisting}[caption={Estructura de los repositorios y archivos}, style=mystyle]
+	Library
+	|   db.sqlite3
+	|   manage.py
+	|
+	+---Apps
+	|   \---catalog
+	|       |   admin.py
+	|       |   apps.py
+	|       |   models.py
+	|       |   tests.py
+	|       |   urls.py
+	|       |   views.py
+	|       |   __init__.py
+	|       |
+	|       +---migrations
+	|       +---static
+	|       |   \---css
+	|       |           styles.css
+	|       |
+	|       +---Templates
+	|       |   |   base.html
+	|       |   |   index.html
+	|       |   |
+	|       |   +---catalog
+	|       |   |       author_detail.html
+	|       |   |       author_list.html
+	|       |   |       book_detail.html
+	|       |   |       book_list.html
+	|       |   |
+	|       |   \---registration
+	|       |           logged_out.html
+	|       |           login.html
+	|       |           password_reset_complete.html
+	|       |           password_reset_confirm.html
+	|       |           password_reset_done.html
+	|       |           password_reset_email.html
+	|       |           password_reset_form.html
+	|       |
+	|       \---__pycache__
+	|
+	+---images
+	|       django1.png
+	|       django2(esqueleto).png
+	|       django3(admin).png
+	|       django4(administracion).png
+	|       django5(viewpersonal).png
+	|       django6(libros).png
+	|       django7(paginacion).png
+	|       django8(autores).png
+	|       django9(autor).png
+	|
+	\---Library
+	|   asgi.py
+	|   settings.py
+	|   urls.py
+	|   wsgi.py
+	|   __init__.py
+	|
+	\---__pycache__
+	\end{lstlisting}
+	\newpage
+	Los archivos más importantes que se verán a continuación son:
+	\begin{itemize}
+		%\lstinputlisting[language=HTML, style=mystyle, linerange={10-20, 30-40}]{tu_archivo.html}
+		%\lstinputlisting[language=HTML, style=mystyle, firstline=10, lastline=20]{tu_archivo.html}
+		
+		\item En Library:
+		\lstinputlisting[language=Python, caption={Ajustes que se toman en cuenta en settings}, style=mystyle, linerange={12-13,33-41, 55-69, 107-109, 126-132}]{../Library/Library/settings.py}
+		
+		\lstinputlisting[language=Python, caption={Código de urls del proyecto}, style=mystyle, linerange={17-27, 32-36}]{../Library/Library/urls.py}
+		\newpage
+		\item En la App catalog:
+		
+		\lstinputlisting[language=Python, caption={Código de models (campos creados)}, style=mystyle]{../Library/Apps/catalog/models.py}
+		
+		\lstinputlisting[language=Python, caption={Código de urls de la aplicación catalog (redireccionamientos)}, style=mystyle]{../Library/Apps/catalog/urls.py}
+		
+		\lstinputlisting[language=Python, caption={Código de vistas (administración de contenido)}, style=mystyle]{../Library/Apps/catalog/views.py}
+	\end{itemize}
+	
 	
 	\section{TAREA}
-	
 	\begin{itemize}
-		\item Elabore un primer informe grupal de la aplicación que desarrollará durante este semestre.
+		\item Elabore un primer informe grupal de la aplicación que desarrollará durante este semestre. 
+		\item repositorio grupal: \\
+		\url{https://github.com/AndreRH09/Proyecto_Pweb2.git}
 		\item Utilicen todas las recomendaciones dadas en la aplicación library.
 	\end{itemize}
 	
 	\section{PREGUNTAS}
 	
 	\begin{itemize}
-		\item Por cada integrante del equipo, resalte un aprendizaje que adquirió al momento de estudiar Django. No se reprima de ser detallista. Coloque su nombre entre parentesis para saber que es
-		su aporte.
+		\item Por cada integrante del equipo, resalte un aprendizaje que adquirió al momento de estudiar Django. No se reprima de ser detallista. Coloque su nombre entre parentesis para saber que es su aporte.\\
+		
+		En lo personal he adquirido amplio conocimiento sobre el desarrollo web con Django, abarcando aspectos como el enrutamiento, modelos y bases de datos, plantillas, formularios y seguridad. Esto les ha permitido desarrollar aplicaciones web robustas y escalables utilizando el framework Django.
+		También Aprendí a utilizar el sistema de enrutamiento de Django para definir las URL de mi aplicación y asignar las vistas correspondientes. También comprendí la importancia de mantener una estructura de archivos organizada para facilitar el desarrollo y la localización de los recursos.
 	\end{itemize}\newpage
 	
 	\subsection*{Referencias}

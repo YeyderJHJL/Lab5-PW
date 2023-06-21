@@ -28,7 +28,7 @@ class Language(models.Model):
 class Book(models.Model):
     title = models.CharField(max_length=200)
 
-    # Foreign Key porque solo tendrá un autor, pero un autor puede tener muchos libros
+    # Foreign Key porque solo tendra un autor, pero un autor puede tener muchos libros
     author = models.ForeignKey('Author', on_delete=models.SET_NULL, null=True)
 
     summary = models.TextField(max_length=1000, help_text='Enter a brief description of the book')

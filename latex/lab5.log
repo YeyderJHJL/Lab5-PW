@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.6)  19 JUN 2023 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.6)  21 JUN 2023 01:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -240,6 +240,34 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
+(C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/listings\
+listings.sty
+\lst@mode=\count271
+\lst@gtempboxa=\box56
+\lst@token=\toks23
+\lst@length=\count272
+\lst@currlwidth=\dimen175
+\lst@column=\count273
+\lst@pos=\count274
+\lst@lostspace=\dimen176
+\lst@width=\dimen177
+\lst@newlines=\count275
+\lst@lineno=\count276
+\lst@maxwidth=\dimen178
+
+(C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/listings\
+lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count277
+\lst@skipnumbers=\count278
+\lst@framebox=\box57
+)
+(C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/listings\
+listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+
 (C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\
 hyperref.sty
 Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
@@ -305,11 +333,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count271
+\c@section@level=\count279
 )
-\@linkdim=\dimen175
-\Hy@linkcounter=\count272
-\Hy@pagecounter=\count273
+\@linkdim=\dimen179
+\Hy@linkcounter=\count280
+\Hy@pagecounter=\count281
 
 (C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\
 pd1enc.def
@@ -325,7 +353,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 s\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count274
+\Hy@SavedSpaceFactor=\count282
 
 (C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\
 puenc.def
@@ -341,7 +369,7 @@ Package hyperref Info: Plain pages OFF on input line 4192.
 Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count275
+\c@Hy@tempcnt=\count283
 
 (C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/url\url.s
 ty
@@ -349,7 +377,7 @@ ty
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen176
+\XeTeXLinkMargin=\dimen180
 
 (C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/generic/bitset\
 bitset.sty
@@ -360,9 +388,9 @@ alc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count276
-\Field@Width=\dimen177
-\Fld@charsize=\dimen178
+\Fld@menulength=\count284
+\Field@Width=\dimen181
+\Fld@charsize=\dimen182
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -376,9 +404,9 @@ gshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count277
-\c@Item=\count278
-\c@Hfootnote=\count279
+\Hy@abspage=\count285
+\c@Item=\count286
+\c@Hfootnote=\count287
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -392,8 +420,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count280
-\c@bookmark@seq@number=\count281
+\Fld@listcount=\count288
+\c@bookmark@seq@number=\count289
 
 (C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/rerunfile
 check\rerunfilecheck.sty
@@ -411,11 +439,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\
 fancyvrb.sty
 Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
-\FV@CodeLineNo=\count282
+\FV@CodeLineNo=\count290
 \FV@InFile=\read3
-\FV@TabBox=\box56
-\c@FancyVerbLine=\count283
-\FV@StepNumber=\count284
+\FV@TabBox=\box58
+\c@FancyVerbLine=\count291
+\FV@StepNumber=\count292
 \FV@OutFile=\write3
 )
 (C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/geometry\
@@ -426,18 +454,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 fvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count285
-\Gm@cntv=\count286
-\c@Gm@tempcnt=\count287
-\Gm@bindingoffset=\dimen179
-\Gm@wd@mp=\dimen180
-\Gm@odd@mp=\dimen181
-\Gm@even@mp=\dimen182
-\Gm@layoutwidth=\dimen183
-\Gm@layoutheight=\dimen184
-\Gm@layouthoffset=\dimen185
-\Gm@layoutvoffset=\dimen186
-\Gm@dimlist=\toks23
+\Gm@cnth=\count293
+\Gm@cntv=\count294
+\c@Gm@tempcnt=\count295
+\Gm@bindingoffset=\dimen183
+\Gm@wd@mp=\dimen184
+\Gm@odd@mp=\dimen185
+\Gm@even@mp=\dimen186
+\Gm@layoutwidth=\dimen187
+\Gm@layoutheight=\dimen188
+\Gm@layouthoffset=\dimen189
+\Gm@layoutvoffset=\dimen190
+\Gm@dimlist=\toks24
 
 (C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/geometry\
 geometry.cfg))
@@ -472,8 +500,8 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 (C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/l3backend
 \l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count296
+\l__pdf_internal_box=\box59
 )
 
 LaTeX Warning: Unused global option(s):
@@ -485,41 +513,41 @@ LaTeX Info: Redefining \% on input line 23.
 )
 \openout1 = `lab5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Info: Redefining \. on input line 70.
+LaTeX Info: Redefining \% on input line 70.
 
 (C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/context/base/mk
 ii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
-\scratchdimen=\dimen187
-\scratchbox=\box58
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count292
-\MPscratchDim=\dimen188
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count297
+\scratchdimen=\dimen191
+\scratchbox=\box60
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen192
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks26
 )
 (C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-
 pkg\epstopdf-base.sty
@@ -531,7 +559,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 44.
+\c@lstlisting=\count303
+Package hyperref Info: Link coloring ON on input line 70.
  (lab5.out) (lab5.out)
 \@outlinefile=\write4
 \openout4 = `lab5.out'.
@@ -572,62 +601,309 @@ Package hyperref Info: Link coloring ON on input line 44.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 53.
+(Font)              <7> on input line 79.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 53.
+(Font)              <5> on input line 79.
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
 []|\OT1/cmss/m/n/10 NRO. SE-MES-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\OT1/cmss/m/n/10 05-Junio-
  []
 
+(lab5.lol)
+\tf@lol=\write5
+\openout5 = `lab5.lol'.
 
-Overfull \hbox (21.21472pt too wide) in paragraph at lines 96--98
+
+Overfull \hbox (21.21472pt too wide) in paragraph at lines 123--124
 [][][]$\OT1/cmtt/m/n/10 https : / / developer . mozilla . org / en-[]US / docs 
 / Learn / Server-[]side / Django / Tutorial _ local _ library _
  []
 
-<./images//sistemas.png, id=20, 240.9pt x 99.37125pt>
+<./images//sistemas.png, id=26, 240.9pt x 99.37125pt>
 File: ./images//sistemas.png Graphic file (type png)
 <use ./images//sistemas.png>
-Package pdftex.def Info: ./images//sistemas.png  used on input line 121.
+Package pdftex.def Info: ./images//sistemas.png  used on input line 133.
 (pdftex.def)             Requested size: 94.4048pt x 38.94113pt.
-<./images//abet.png, id=22, 113.67468pt x 113.67468pt>
+<./images//abet.png, id=28, 113.67468pt x 113.67468pt>
 File: ./images//abet.png Graphic file (type png)
 <use ./images//abet.png>
-Package pdftex.def Info: ./images//abet.png  used on input line 121.
+Package pdftex.def Info: ./images//abet.png  used on input line 133.
 (pdftex.def)             Requested size: 47.206pt x 47.20532pt.
 [1{C:/Users/JHAMIL YEYDER TURPO/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.ma
 p}
 
  <./images//sistemas.png> <./images//abet.png>]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 134.
 File: ./images//sistemas.png Graphic file (type png)
 <use ./images//sistemas.png>
-Package pdftex.def Info: ./images//sistemas.png  used on input line 121.
+Package pdftex.def Info: ./images//sistemas.png  used on input line 195.
 (pdftex.def)             Requested size: 94.4048pt x 38.94113pt.
 File: ./images//abet.png Graphic file (type png)
 <use ./images//abet.png>
-Package pdftex.def Info: ./images//abet.png  used on input line 121.
+Package pdftex.def Info: ./images//abet.png  used on input line 195.
 (pdftex.def)             Requested size: 47.206pt x 47.20532pt.
  [2]
-Overfull \hbox (21.21472pt too wide) in paragraph at lines 126--127
+(C:\Users\JHAMIL YEYDER TURPO\AppData\Local\Programs\MiKTeX\tex/latex/listings\
+lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) (../Library/Library/settings.py
+
+! LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ....catalog.apps.CatalogConfig',#aplicaci贸n 
+                                                  library
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ....catalog.apps.CatalogConfig',#aplicaci贸n 
+                                                  library
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 # actualizaci贸n 
+                       de cookies en cada session
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 # actualizaci贸n 
+                       de cookies en cada session
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 # redirecci贸n 
+                     a la p谩gina de inicio
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 # redirecci贸n 
+                     a la p谩gina de inicio
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 # redirecci贸n a la p谩gina 
+                                  de inicio
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 # redirecci贸n a la p谩gina 
+                                  de inicio
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 # para reestablecer contrace帽a
+                                     
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "B1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 # para reestablecer contrace帽a
+                                     
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+) (../Library/Library/urls.py
+
+! LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 #archivos est谩ticos
+                         
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 #archivos est谩ticos
+                         
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+File: ./images//sistemas.png Graphic file (type png)
+<use ./images//sistemas.png>
+Package pdftex.def Info: ./images//sistemas.png  used on input line 205.
+(pdftex.def)             Requested size: 94.4048pt x 38.94113pt.
+File: ./images//abet.png Graphic file (type png)
+<use ./images//abet.png>
+Package pdftex.def Info: ./images//abet.png  used on input line 205.
+(pdftex.def)             Requested size: 47.206pt x 47.20532pt.
+ [3] (../Library/Apps/catalog/models.py
+File: ./images//sistemas.png Graphic file (type png)
+<use ./images//sistemas.png>
+Package pdftex.def Info: ./images//sistemas.png  used on input line 59.
+(pdftex.def)             Requested size: 94.4048pt x 38.94113pt.
+File: ./images//abet.png Graphic file (type png)
+<use ./images//abet.png>
+Package pdftex.def Info: ./images//abet.png  used on input line 59.
+(pdftex.def)             Requested size: 47.206pt x 47.20532pt.
+ [4]) (../Library/Apps/catalog/urls.py
+File: ./images//sistemas.png Graphic file (type png)
+<use ./images//sistemas.png>
+Package pdftex.def Info: ./images//sistemas.png  used on input line 5.
+(pdftex.def)             Requested size: 94.4048pt x 38.94113pt.
+File: ./images//abet.png Graphic file (type png)
+<use ./images//abet.png>
+Package pdftex.def Info: ./images//abet.png  used on input line 5.
+(pdftex.def)             Requested size: 47.206pt x 47.20532pt.
+
+[5]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+) (../Library/Apps/catalog/views.py
+File: ./images//sistemas.png Graphic file (type png)
+<use ./images//sistemas.png>
+Package pdftex.def Info: ./images//sistemas.png  used on input line 55.
+(pdftex.def)             Requested size: 94.4048pt x 38.94113pt.
+File: ./images//abet.png Graphic file (type png)
+<use ./images//abet.png>
+Package pdftex.def Info: ./images//abet.png  used on input line 55.
+(pdftex.def)             Requested size: 47.206pt x 47.20532pt.
+ [6])
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+File: ./images//sistemas.png Graphic file (type png)
+<use ./images//sistemas.png>
+Package pdftex.def Info: ./images//sistemas.png  used on input line 231.
+(pdftex.def)             Requested size: 94.4048pt x 38.94113pt.
+File: ./images//abet.png Graphic file (type png)
+<use ./images//abet.png>
+Package pdftex.def Info: ./images//abet.png  used on input line 231.
+(pdftex.def)             Requested size: 47.206pt x 47.20532pt.
+[7]
+Overfull \hbox (21.21472pt too wide) in paragraph at lines 236--237
 [][][]$\OT1/cmtt/m/n/10 https : / / developer . mozilla . org / en-[]US / docs 
 / Learn / Server-[]side / Django / Tutorial _ local _ library _
  []
 
 File: ./images//sistemas.png Graphic file (type png)
 <use ./images//sistemas.png>
-Package pdftex.def Info: ./images//sistemas.png  used on input line 131.
+Package pdftex.def Info: ./images//sistemas.png  used on input line 241.
 (pdftex.def)             Requested size: 94.4048pt x 38.94113pt.
 File: ./images//abet.png Graphic file (type png)
 <use ./images//abet.png>
-Package pdftex.def Info: ./images//abet.png  used on input line 131.
+Package pdftex.def Info: ./images//abet.png  used on input line 241.
 (pdftex.def)             Requested size: 47.206pt x 47.20532pt.
-[3] 
+[8] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (lab5.aux
 LaTeX Info: Redefining \. on input line 23.
@@ -637,20 +913,23 @@ Package rerunfilecheck Info: File `lab5.out' has not changed.
 (rerunfilecheck)             Checksum: 73A6086E235A828F9EF29FFB0F120278;466.
  ) 
 Here is how much of TeX's memory you used:
- 12588 strings out of 476331
- 209540 string characters out of 5781122
- 1873660 words of memory out of 5000000
- 32838 multiletter control sequences out of 15000+600000
- 514844 words of font info for 41 fonts, out of 8000000 for 9000
+ 14873 strings out of 476331
+ 240706 string characters out of 5781122
+ 2297660 words of memory out of 5000000
+ 34764 multiletter control sequences out of 15000+600000
+ 517435 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,76p,294b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,76p,567b,2306s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/JHAMIL YEYDER TURPO/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmss10.pfb><C:/Users/JHAMIL YEYDER TURPO/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/JHAMIL YEYDER TURPO
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on lab5.pdf (3 pages, 81426 bytes).
+iKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/JHAMIL YEYDER TURPO/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Use
+rs/JHAMIL YEYDER TURPO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmtt10.pfb><C:/Users/JHAMIL YEYDER TURPO/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on lab5.pdf (8 pages, 179354 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 324 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
